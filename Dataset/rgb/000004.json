@@ -1,0 +1,179 @@
+{
+  "camera_data": {},
+  "objects": {
+    "class": "battery_module",
+    "location": [
+      [
+        16.406883239746094,
+        -15.186540603637695,
+        161.1107177734375
+      ]
+    ],
+    "projected_cuboid": [
+      [
+        [
+          423.3942565917969,
+          249.8199005126953
+        ],
+        [
+          388.417236328125,
+          87.78292846679688
+        ],
+        [
+          380.41058349609375,
+          83.34784698486328
+        ],
+        [
+          413.7532653808594,
+          235.93240356445312
+        ],
+        [
+          365.2024230957031,
+          264.7601318359375
+        ],
+        [
+          326.42523193359375,
+          103.68905639648438
+        ],
+        [
+          322.3594055175781,
+          98.24248504638672
+        ],
+        [
+          359.0474548339844,
+          249.976806640625
+        ],
+        [
+          398.2264709472656,
+          167.59201049804688
+        ]
+      ]
+    ],
+    "cuboid": [
+      [
+        0,
+        -172.4532470703125,
+        -51.68260955810547,
+        -117.7724609375,
+        172.5911865234375,
+        55.459999084472656,
+        8.2275390625,
+        [
+          [
+            0.0008940169354900718,
+            -7.826435466995463e-05,
+            -0.0004411445406731218,
+            0.0
+          ],
+          [
+            -0.0004348994989413768,
+            8.506403537467122e-05,
+            -0.0008964522858150303,
+            0.0
+          ],
+          [
+            0.00010768580250442028,
+            0.0009932969696819782,
+            4.201155388727784e-05,
+            0.0
+          ],
+          [
+            2.0517563819885254,
+            2.1557979583740234,
+            -0.6484245657920837,
+            1.0
+          ]
+        ],
+        0.03309999778866768
+      ]
+    ],
+    "pose": [
+      [
+        0,
+        [
+          [
+            -0.8453799486160278,
+            0.43081188201904297,
+            0.31580668687820435,
+            0.01783616840839386
+          ],
+          [
+            0.3456178903579712,
+            -0.00963567104190588,
+            0.9383258819580078,
+            0.07339394092559814
+          ],
+          [
+            0.4072849452495575,
+            0.9023903608322144,
+            -0.1407504826784134,
+            1.4556245803833008
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          329.4124755859375,
+          278.73138427734375
+        ]
+      ]
+    ]
+  },
+  "environment": "omniverse://localhost/NVIDIA/Assets/Isaac/2023.1.1/Isaac/Environments/Simple_Room/simple_room.usd",
+  "spawn_location": [
+    2.0,
+    2.0,
+    -0.5
+  ],
+  "distractors": [
+    "/Isaac/Props/YCB/Axis_Aligned/037_scissors.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/021_bleach_cleanser.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/002_master_chef_can.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/008_pudding_box.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/007_tuna_fish_can.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/025_mug.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/025_mug.usd",
+    "/Isaac/Props/Shapes/torus.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/007_tuna_fish_can.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/051_large_clamp.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/024_bowl.usd",
+    "/Isaac/Props/Shapes/cone.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/021_bleach_cleanser.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/025_mug.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/009_gelatin_box.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/005_tomato_soup_can.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/025_mug.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/019_pitcher_base.usd",
+    "/Isaac/Props/Shapes/torus.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/008_pudding_box.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/061_foam_brick.usd",
+    "/Isaac/Props/YCB/Axis_Aligned/010_potted_meat_can.usd"
+  ],
+  "object_detection": [
+    {
+      "class": 0.0,
+      "visibility": 0.03309999778866768,
+      "bbox": [
+        233.0,
+        190.0,
+        418.0,
+        308.0
+      ]
+    }
+  ],
+  "segmentation_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "battery_module"
+    }
+  }
+}
